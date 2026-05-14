@@ -1,4 +1,4 @@
-# Lill of Materials
+# List of Materials
 
 | No | Item | Qty | Category | Photo | Notes |
 |:-:|:-:|:-:|:-:|:-:|:-:|
