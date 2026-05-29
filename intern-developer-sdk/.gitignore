@@ -1,0 +1,12 @@
+.claude
+.idea/
+.DS_Store
+*.bak
+
+# python venv
+.venv/
+__pycache__/
+*.pyc
+
+# generated test wavs
+audio/*.wav

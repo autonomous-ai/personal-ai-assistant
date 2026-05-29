@@ -1,0 +1,493 @@
+{
+  "version": "1.0.43",
+  "generic_zip": "generic.zip",
+  "default_zips": [
+    "generic.zip",
+    "smarthome.zip"
+  ],
+  "generic": {
+    "label": "Generic (All Users)",
+    "skills_zip": "generic.zip",
+    "description": "Core skills installed for all users: email, calendar, notes, file management, web search, translation, documents, spreadsheets, Google Workspace read access",
+    "skills": [
+      "calendar-helper",
+      "camera-control",
+      "clawchief",
+      "document-summarizer",
+      "drive-reader",
+      "exa-web-search",
+      "file-manager",
+      "gmail",
+      "memory-keeper",
+      "note-taker",
+      "presentation-maker",
+      "printer-control",
+      "sheets-reader",
+      "speaker-control",
+      "spreadsheet-helper",
+      "translator",
+      "web-search"
+    ]
+  },
+  "roles": {
+    "finance": {
+      "label": "Accounting / Finance",
+      "keywords": [
+        "accounting",
+        "finance",
+        "accountant",
+        "bookkeeper",
+        "budget",
+        "auditor",
+        "treasury",
+        "financial analyst",
+        "controller",
+        "cfo"
+      ],
+      "skills_zip": "finance.zip",
+      "description": "Expense tracking, invoicing, budget planning, tax assistance, financial reporting, payroll calculation",
+      "skills": [
+        "audit-support",
+        "budget-planner",
+        "close-management",
+        "expense-tracker",
+        "financial-report",
+        "financial-statements",
+        "invoice-generator",
+        "journal-entry",
+        "journal-entry-prep",
+        "payroll-helper",
+        "reconciliation",
+        "sox-testing",
+        "tax-helper",
+        "variance-analysis"
+      ]
+    },
+    "developer": {
+      "label": "Software Developer / Engineer",
+      "keywords": [
+        "developer",
+        "engineer",
+        "programmer",
+        "coder",
+        "devops",
+        "sre",
+        "backend",
+        "frontend",
+        "fullstack",
+        "software engineer",
+        "dev"
+      ],
+      "skills_zip": "developer.zip",
+      "description": "Code review, Git workflows, debugging, API testing, documentation generation",
+      "skills": [
+        "api-tester",
+        "architecture",
+        "audio",
+        "code-review",
+        "code-reviewer",
+        "debug",
+        "debug-assistant",
+        "deploy-checklist",
+        "doc-generator",
+        "documentation",
+        "git-helper",
+        "incident-response",
+        "standup",
+        "system-design",
+        "tech-debt",
+        "testing-strategy"
+      ]
+    },
+    "marketing": {
+      "label": "Marketing / Content",
+      "keywords": [
+        "marketing",
+        "content",
+        "growth",
+        "seo",
+        "social media",
+        "ads",
+        "copywriter",
+        "digital marketing",
+        "brand",
+        "communications",
+        "influencer",
+        "influencer marketing",
+        "kol",
+        "affiliate"
+      ],
+      "skills_zip": "marketing.zip",
+      "description": "Content writing, SEO optimization, social media planning, campaign tracking, competitor analysis",
+      "skills": [
+        "brand-review",
+        "campaign-plan",
+        "campaign-tracker",
+        "competitive-brief",
+        "competitor-analyzer",
+        "content-creation",
+        "content-writer",
+        "draft-content",
+        "email-sequence",
+        "performance-report",
+        "seo-audit",
+        "seo-optimizer",
+        "social-media-planner"
+      ]
+    },
+    "designer": {
+      "label": "Designer / Creative",
+      "keywords": [
+        "designer",
+        "ui",
+        "ux",
+        "graphic",
+        "creative",
+        "figma",
+        "photoshop",
+        "illustrator",
+        "visual designer",
+        "product designer"
+      ],
+      "skills_zip": "designer.zip",
+      "description": "Design review, color palettes, asset management, wireframing, brand consistency",
+      "skills": [
+        "accessibility-review",
+        "asset-organizer",
+        "brand-checker",
+        "color-palette",
+        "design-critique",
+        "design-handoff",
+        "design-reviewer",
+        "design-system",
+        "research-synthesis",
+        "user-research",
+        "ux-copy",
+        "wireframe-helper"
+      ]
+    },
+    "sales": {
+      "label": "Sales / Business Development",
+      "keywords": [
+        "sales",
+        "business development",
+        "account",
+        "crm",
+        "lead",
+        "revenue",
+        "account executive",
+        "ae",
+        "bdm",
+        "sales rep",
+        "closer"
+      ],
+      "skills_zip": "sales.zip",
+      "description": "Lead research, proposal writing, CRM management, follow-up drafting, competitive intelligence",
+      "skills": [
+        "account-research",
+        "call-prep",
+        "call-summary",
+        "competitive-intelligence",
+        "competitor-briefer",
+        "create-an-asset",
+        "crm-helper",
+        "daily-briefing",
+        "draft-outreach",
+        "follow-up-drafter",
+        "forecast",
+        "lead-researcher",
+        "pipeline-review",
+        "proposal-writer"
+      ]
+    },
+    "legal": {
+      "label": "Legal / Compliance",
+      "keywords": [
+        "legal",
+        "lawyer",
+        "compliance",
+        "contract",
+        "regulatory",
+        "counsel",
+        "paralegal",
+        "legal officer",
+        "corporate counsel",
+        "law"
+      ],
+      "skills_zip": "legal.zip",
+      "description": "Contract review, NDA drafting, compliance checking, legal document summarization, clause extraction",
+      "skills": [
+        "brief",
+        "clause-extractor",
+        "compliance-check",
+        "compliance-checker",
+        "contract-reviewer",
+        "legal-response",
+        "legal-risk-assessment",
+        "legal-summarizer",
+        "meeting-briefing",
+        "nda-drafter",
+        "review-contract",
+        "signature-request",
+        "triage-nda",
+        "vendor-check"
+      ]
+    },
+    "data": {
+      "label": "Data / BI Analyst",
+      "keywords": [
+        "data analyst",
+        "data",
+        "bi",
+        "business intelligence",
+        "analytics",
+        "reporting",
+        "dashboard",
+        "sql",
+        "data scientist",
+        "bi analyst"
+      ],
+      "skills_zip": "data.zip",
+      "description": "Data summarization, chart generation, SQL queries, KPI tracking, data cleaning",
+      "skills": [
+        "analyze",
+        "build-dashboard",
+        "chart-generator",
+        "create-viz",
+        "data-cleaner",
+        "data-context-extractor",
+        "data-summarizer",
+        "data-visualization",
+        "explore-data",
+        "kpi-tracker",
+        "sql-helper",
+        "sql-queries",
+        "statistical-analysis",
+        "validate-data",
+        "write-query"
+      ]
+    },
+    "procurement": {
+      "label": "Procurement / Purchasing",
+      "keywords": [
+        "procurement",
+        "purchasing",
+        "buyer",
+        "vendor management",
+        "supply chain",
+        "sourcing",
+        "tender",
+        "bidding",
+        "purchase officer",
+        "purchasing agent"
+      ],
+      "skills_zip": "procurement.zip",
+      "description": "Vendor evaluation, purchase order generation, price comparison, supplier tracking, bid analysis",
+      "skills": [
+        "bid-analyzer",
+        "po-generator",
+        "price-comparator",
+        "supplier-tracker",
+        "vendor-evaluator"
+      ]
+    },
+    "smarthome": {
+      "label": "Smart Home / Home Automation",
+      "keywords": [
+        "smart home",
+        "home automation",
+        "home assistant",
+        "iot",
+        "homeassistant",
+        "ha",
+        "smart devices",
+        "automation",
+        "smarthome",
+        "home control"
+      ],
+      "skills_zip": "smarthome.zip",
+      "description": "Connect to Home Assistant, control smart devices, build automations, monitor sensors, and manage scenes",
+      "skills": [
+        "automation-builder",
+        "device-controller",
+        "ha-connector",
+        "scene-manager",
+        "sensor-monitor"
+      ]
+    },
+    "enterprise-search": {
+      "label": "Enterprise Search / Knowledge Management",
+      "keywords": [
+        "enterprise search",
+        "knowledge management",
+        "search",
+        "knowledge base",
+        "information retrieval",
+        "document search",
+        "wiki",
+        "knowledge synthesis"
+      ],
+      "skills_zip": "enterprise-search.zip",
+      "description": "Search across email, chat, docs, and wikis. Synthesize knowledge, build digests, and manage information sources.",
+      "skills": [
+        "digest",
+        "knowledge-synthesis",
+        "search",
+        "search-strategy",
+        "source-management"
+      ]
+    },
+    "bio-research": {
+      "label": "Bio Research / Life Sciences",
+      "keywords": [
+        "bio research",
+        "biology",
+        "life sciences",
+        "genomics",
+        "bioinformatics",
+        "preclinical",
+        "pharmaceutical",
+        "biotech",
+        "single cell",
+        "rna",
+        "drug discovery",
+        "clinical trials"
+      ],
+      "skills_zip": "bio-research.zip",
+      "description": "Preclinical research tools: literature search, genomics analysis, single-cell RNA QC, Nextflow pipelines, and target prioritization.",
+      "skills": [
+        "instrument-data-to-allotrope",
+        "nextflow-development",
+        "scientific-problem-selection",
+        "scvi-tools",
+        "single-cell-rna-qc",
+        "start"
+      ]
+    },
+    "customer-support": {
+      "label": "Customer Service / Support",
+      "keywords": [
+        "customer service",
+        "customer support",
+        "cs",
+        "support",
+        "helpdesk",
+        "call center",
+        "service desk",
+        "client support",
+        "cx"
+      ],
+      "skills_zip": "customer-support.zip",
+      "description": "Ticket responses, FAQ lookup, escalation handling, feedback analysis, knowledge base",
+      "skills": [
+        "customer-escalation",
+        "customer-research",
+        "draft-response",
+        "escalation-helper",
+        "faq-lookup",
+        "feedback-analyzer",
+        "kb-article",
+        "knowledge-base",
+        "ticket-responder",
+        "ticket-triage"
+      ]
+    },
+    "human-resources": {
+      "label": "Human Resources / Recruitment",
+      "keywords": [
+        "hr",
+        "human resources",
+        "recruitment",
+        "recruiter",
+        "talent",
+        "people ops",
+        "c&b",
+        "hiring",
+        "talent acquisition",
+        "people"
+      ],
+      "skills_zip": "human-resources.zip",
+      "description": "Resume screening, interview scheduling, onboarding, policy lookup, performance reviews, leave management, training planning",
+      "skills": [
+        "comp-analysis",
+        "draft-offer",
+        "interview-prep",
+        "interview-scheduler",
+        "leave-manager",
+        "onboarding",
+        "onboarding-checklist",
+        "org-planning",
+        "people-report",
+        "performance-review",
+        "policy-lookup",
+        "recruiting-pipeline",
+        "resume-screener",
+        "training-planner"
+      ]
+    },
+    "product-management": {
+      "label": "Project Management",
+      "keywords": [
+        "project manager",
+        "pm",
+        "scrum master",
+        "product owner",
+        "po",
+        "agile",
+        "project lead",
+        "program manager",
+        "delivery manager"
+      ],
+      "skills_zip": "product-management.zip",
+      "description": "Task tracking, sprint planning, daily standups, risk assessment, timeline generation",
+      "skills": [
+        "competitive-brief",
+        "metrics-review",
+        "product-brainstorming",
+        "risk-assessor",
+        "roadmap-update",
+        "sprint-planner",
+        "sprint-planning",
+        "stakeholder-update",
+        "standup-helper",
+        "synthesize-research",
+        "task-tracker",
+        "timeline-generator",
+        "write-spec"
+      ]
+    },
+    "operations": {
+      "label": "Office / Admin / Secretary",
+      "keywords": [
+        "office",
+        "admin",
+        "secretary",
+        "assistant",
+        "receptionist",
+        "administrative",
+        "clerk",
+        "front desk",
+        "office manager"
+      ],
+      "skills_zip": "operations.zip",
+      "description": "Document formatting, meeting scheduling, inventory tracking, travel planning, operational reports, SOP creation",
+      "skills": [
+        "capacity-plan",
+        "change-request",
+        "compliance-tracking",
+        "document-formatter",
+        "inventory-tracker",
+        "meeting-scheduler",
+        "process-doc",
+        "process-optimization",
+        "report-generator",
+        "risk-assessment",
+        "runbook",
+        "sop-creator",
+        "status-report",
+        "travel-planner",
+        "vendor-review"
+      ]
+    }
+  }
+}
